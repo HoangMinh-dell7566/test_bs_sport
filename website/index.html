@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../JS/bootstrap.min.js"></script>
+    <script src="../JS/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/stype.css">
+    
+</head>
+<body>
+  <div class="container-fluid" style="background-color :khaki">
+    <div class="navbar navbar-expand-lg navbar-light  d-flex sticky-top">
+      <div class="container p-0">
+        <a class="navbar-brand" href="#">
+          <img src="../media/olympic.png" alt >
+          <!-- <span class="sub-heading-h5">Thế Vận Hội Mùa Hè 2016</span> -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end text-end" id="navbar">
+              <ul class="navbar-nav  ">
+                  <li class="nav-item"><a href="#" class="nav-link">Đăng nhập</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Đăng ký</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    
+  <div class="container bg-light main">
+        <!-- banner -->
+        <div class="row">
+          <div  class="p-0 bg-primary col-sm-12 banner">
+            <img width="100%"  src="../media/727.jpg" alt="banner">
+          </div>
+        </div>
+        <div class="container-fluid bg-light main">
+            <div class="row mt-3  " > 
+                <div class="col-md-8 col-sm-12"><div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../media/slide1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../media/slide2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../media/silde4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <div class="border p-3 h-100" >
+                  <h3>Khai mạc thế vận hội mùa hè 2016</h3>
+                  <p class="text-justify">Từ 6 giờ sáng nay 6/8, lễ khai mạc Thế vận hội mùa Hè Rio de Janeiro 2016 tưng bừng diễn ra trên  SVĐ Maracana. Lễ khai mạc bắt đầu bằng màn đếm ngược, bắn pháo hoa hoành tráng.
+                    Chủ đề của lễ khai mạc Olympic 2016 là: “Sự phát triển của đất nước và con người Brazil” - thông điệp của nước chủ nhà kêu gọi người dân trên toàn thế giới bảo vệ môi trường và bầu không khí. </p>
+                  <p class="text-justify m-0">Lễ khai mạc Olympic 2016 được dàn dựng trong 5 năm, với 300 vũ công, 6.000 diễn viên chuyên nghiệp cùng 5.000 tình nguyện viên tham gia. </p>
+                </div>
+              </div>
+            </div>
+        </div>
+  
+  <!-- thanh menu -->
+        <nav class="navbar d-flex navbar-expand-md navbar-light  bg-light mb-10 d-flex" id="parent" >
+          <div class="navbar-toggler text-center container-fluid border-0 p-0 ">
+            <button class="navbar-toggler float-start collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar_1" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="" ><img src="../media/logo-11.png" alt="" id="logo1"></a>
+            <button class="navbar-toggler float-end collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar_2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>  
+            
+          </div>
+          <!-- menu1      -->
+          <div class=" navbar-collapse collapse"  id="collapsibleNavbar_1" data-bs-parent="#parent">
+            <ul class="navbar-nav me-auto  ">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sự kiện</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Tin tức</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Thêm
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Bảng tổng sắp huy chương</a></li>
+                  <li><a class="dropdown-item" href="#">Nhật ký</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Kỷ lục mới</a></li>
+                </ul>
+              </li>
+              
+            </ul>           
+          </div>
+          <!-- menu2 -->
+          <div class="collapse navbar-collapse justify-content-end"  id="collapsibleNavbar_2" data-bs-parent="#parent">
+            <div class="ms-auto">
+
+                <form class="d-flex my-3 my-md-0">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+            </div>
+          </div>
+        </nav>
+        <!-- content main -->
+        <div class="container-fluid ">
+          <div class="row justify-content-center g-2 mt-1 pb-2">
+            <div class="col-lg-4 col-md-6  ">
+             <div class="border bg-light h-100">
+                  <img width="100%" height="40%" src="../media/content1.jpg" alt="">
+                  <h3>Đô vật Việt Nam đến Brazil nhưng không được thi Olympic</h3>
+                  <p class="text-jusitfy m-0 px-2">Ban tổ chức cho rằng Vũ Thị Hằng đang chấn thương, và có thể gặp nguy hiểm nếu cố gắng tranh tài.</p>
+                  <p class="text-jusitfy m-0 px-2 pb-2">“Vũ Thị Hằng tái phát chấn thương cột sống và thắt lưng. Tiểu ban y tế của ban tổ chức đã có văn bản khẳng định cô không được phép thi đấu vì có thể dẫn đến nguy hiểm tính mạng”, lãnh đạo đoàn thể thao Việt Nam tại Olympic 2016 chia sẻ.</p>
+             </div>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+              <div class="border bg-light h-100">
+                  <img width="100%" height="40%" src="../media/content2.jpg" alt="">
+                  <h3>Brazil dành huy chương vàng nội dung bóng đá nam Rio 2016</h3>
+                  <p class="text-jusitfy m-0 px-2">Ngay từ giai đoạn vòng bảng, môn bóng đá nam Olympic đã chứng kiến màn tái ngộ giữa đương kim vô địch Brazil và á quân Đức.</p>
+                  <p class="text-jusitfy m-0 px-2 pb-2">"Cậu bé vàng" Neymar cuối cùng cũng giành tấm HCV Olympic bóng đá đầu tiên cho Brazil trên sân nhà sau khi thực hiện cú penalty quyết định ở trận chung kết với Đức.Đây có thể coi là cái kết đẹp trong ngày chia tay ĐT Olympic Brazil của Neymar.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="border bg-light h-100">
+                <img width="100%" height="40%" src="../media/content3.jpg" alt="">
+                <h3>Việt Nam lần đầu lọt top 50</h3>
+                <p class="text-jusitfy m-0 px-2">Chủ nhân xứng đáng của những tấm huy chương đã được xác định và đoàn thể thao Việt Nam cũng đã ghi dấu ấn mang tính lịch sử tại kỳ Thế vận hội đầu tiên ở Nam Mỹ này với 1 HCV và 1 HCB.</p>
+                <p class="text-jusitfy m-0 px-2 pb-2">Người mang về cả hai tấm huy chương danh giá này không ai khác chính là xạ thủ Hoàng Xuân Vinh. Anh trở thành VĐV đầu tiên của Việt Nam giành HCV tại một kỳ Olympic khi đăng quang ở nội dung bắn súng.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+  </div>
+   <!-- footer --> 
+  <footer>
+    <div class="container-fluid" style="background-color: khaki;">
+        <div class="row text-center ">
+            <div class="col-md-6">
+                <p>Contact</p>
+                <hr class="border">
+                <p>Gmail: hoang.pm.61.cntt@ntu.edu.vn</p>
+                <p>Phone: 091646619</p>
+            </div>
+            <div class="col-md-6">
+                <p>Infomation</p>
+                <hr class="border">
+                <p>Nha Trang University</p>
+                <p>02 Nguyen Dinh Chieu, Nha Trang City</p>
+            </div>
+        </div>
+    </div>
+</footer>
+  
+</body>
+</html>
